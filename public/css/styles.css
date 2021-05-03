@@ -1,0 +1,230 @@
+/* common */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  width: 15%;
+  border-style: dotted none none none;
+  border-width: 7px;
+  background-color: inherit;
+  border-color: #536162;
+  margin: 0 auto 0 auto;
+}
+
+h5{
+  margin: 2px;
+}
+
+a{
+  text-decoration: none;
+  color: #536162;
+}
+
+a:hover{
+  color: #9e7540;
+}
+
+.headings{
+  font-weight: 700;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  padding: 50px 50px 20px 50px;
+  font-size: 100%;
+}
+
+
+/* navbar */
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: black;
+  padding: 2% 2% 2% 2%;
+}
+
+.navtitle {
+  font-family: "Krona One";
+}
+
+.nav-link{
+  font-family: "Lora";
+  margin: 0 25px 0 25px;
+}
+
+.navbar-nav  li a:hover {
+    color: #9e7540 !important;
+}
+
+/* intro */
+
+.reasons, #why-us{
+  padding:10% 15% 3% 15%;
+}
+
+.reasons p{
+  color: #536162;
+  padding: 2%;
+}
+
+.why{
+  padding: 4%;
+}
+
+.picitems{
+  margin-top: 6.5%;
+}
+
+@media (max-width: 600px) {
+  .picitems{
+    margin-top: 11%;
+  }
+}
+
+@media (max-width: 545px) {
+  .picitems{
+    margin-top: 11.5%;
+  }
+}
+
+/* products */
+
+#products{
+  padding: 8% 3% 4% 3%;
+}
+
+.container{
+  margin: 4% auto 0 auto;
+  padding: 0;
+}
+
+.card{
+  margin-top: 6%;
+  border: none;
+}
+
+
+.card p{
+  font-size: 90%;
+  color: #536162;
+}
+
+/* why us  */
+
+.advantage{
+  text-align: left;
+  padding: 5%;
+}
+
+@media (max-width: 720px){
+  .advantage{
+    text-align: center;
+  }
+}
+
+.advantage p{
+  color: #536162;
+}
+
+/* footer */
+
+.footer-font {
+  margin: 0 15px 15px 15px;
+}
+
+.creator-link{
+  font-size: 80%;
+  margin: 20px 0 0 0;
+}
+
+/* contant us and about the maker */
+
+.main , .about{
+  padding: 10% 15% 3% 15%;
+}
+
+@media (max-width: 960px){
+  .main{
+    padding: 100px 15% 3% 15%;
+  }
+}
+
+@media (max-width: 960px){
+  .about{
+    padding: 100px 5% 3% 5%;
+  }
+}
+
+.main p{
+  color: #536162;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+label{
+  padding-right: 2%;
+  color: #536162;
+  font-weight: 700;
+  margin: 2%;
+}
+
+input{
+  margin: 2%;
+  border-radius: 5px;
+}
+
+form{
+  border: solid 3px #536162;
+  border-radius: 5px;
+  padding: 3%;
+  margin: 10% 5% 5% 5%;
+}
+
+textarea{
+  width: 90%;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.btn{
+  margin: 2% 0 3% 0;
+}
+
+.btn:hover{
+  background-color: black;
+  border-color: black;
+}
+
+i{
+  margin-right: 5px;
+}
+
+.main a{
+  color: white;
+  font-weight: 500;
+}
+
+.warning{
+  font-size: 80%;
+}
+
+
+.about img{
+  width: 80%;
+  margin: 5% 0 5% 0;
+}
+
+.about p{
+  margin: 5% 0 10% 0;
+  color: #536162;
+}
